@@ -1,0 +1,23 @@
+@import "./common/button";
+@import "./utils/colors";
+@import "./components/footer";
+@import "./components/header";
+@import "./components/main";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #262626;
+  border-style: none;
+}
+body {
+  background-color: #feedbc;
+}
+
+.about_btn {
+  background-color: #262626;
+}
+.home_btn {
+  background-color: #f9b800;
+}

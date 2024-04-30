@@ -1,0 +1,75 @@
+.top-area {
+  width: 336px;
+  margin: 0 auto;
+  padding: 10px;
+  &__div {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.top-area__time {
+  width: 26px;
+  color: #262626;
+}
+.top-area__shapes {
+  width: 52px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-area__battery {
+  width: 17px;
+  height: 11px;
+}
+.top-area__wifi {
+  width: 14px;
+  height: 9px;
+}
+.top-area__signal {
+  width: 15px;
+  height: 9px;
+}
+
+.header {
+  width: 350px;
+  margin: 0 auto;
+  &__div {
+    border-radius: 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+.header__logo {
+  padding: 5px 70px 5px 0px;
+}
+.header__language {
+  width: 50px;
+  padding: 0px 5px 0px 60px;
+  height: 18px;
+}
+
+@media (min-width: 1920px) {
+  .top-area {
+    display: none;
+  }
+
+  .header {
+    width: 1600px;
+    &__div {
+      border-radius: 50px;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: right;
+      align-items: center;
+    }
+  }
+  .header__logo {
+    padding: 5px 650px 0px 0px;
+  }
+  .header__language {
+    width: 50px;
+    padding: 0px 50px 0px 0px;
+    height: 18px;
+  }
+}
